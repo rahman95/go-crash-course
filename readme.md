@@ -39,7 +39,7 @@ To add packages to your projects simply use;
 go get github.com/aws/aws-sdk-go/aws
 ```
 
-This command will fetch the package and place in under the `pkg` directory. For a list of packages avaialable you can use [Pkg.Go](`https://pkg.go.dev/`)
+This command will fetch the package and place in under the `pkg` directory. For a list of packages avaialable you can use [Pkg.Go](https://pkg.go.dev/)
 
 ### Run
 

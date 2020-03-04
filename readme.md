@@ -1,6 +1,6 @@
-## Go Crash Course
+## Go Crash Course 📝💥
 
-### Workspace
+### Workspace 🏗
 
 Run below command to spit out your go enviroment variables.
 
@@ -31,7 +31,7 @@ In the `bin` folder is where all your compiled code will live, once you run the 
 #### pkg
 This is the directory where all third-party packages will sit, whenever you will add a new dependency it should be added there.
 
-### Packages
+### Packages ✨
 
 To add packages to your projects simply use;
 
@@ -39,9 +39,9 @@ To add packages to your projects simply use;
 go get github.com/aws/aws-sdk-go/aws
 ```
 
-This command will fetch the package and place in under the `pkg` directory. For a list of packages avaialable you can use [Pkg.Go](https://pkg.go.dev/)
+This command will fetch the package and place in under the `pkg` directory. For a list of packages avaialable you can use [pkg.go](https://pkg.go.dev/)
 
-### Run
+### Run 🏃🏽‍♂️
 
 To execute a go file you can use the below command
 
@@ -49,7 +49,7 @@ To execute a go file you can use the below command
 go run <file.go>
 ```
 
-### Compile
+### Compile 🚀
 
 To compile your project, navigate to your project and run the below
 

@@ -19,7 +19,7 @@ func main() {
 }
 
 func count(thing string, messages chan string) {
-	for i := 0; i <= 5; i++ {
+	for i := 0; true; i++ {
 		messages <- fmt.Sprint(i, " ", thing)
 		time.Sleep(time.Millisecond * 500)
 	}

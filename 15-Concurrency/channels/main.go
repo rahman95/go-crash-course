@@ -5,8 +5,7 @@ import (
 	"time"
 )
 
-// See https://gobyexample.com/channels for further info, we will use channels to communicate from and to goroutines
-
+// See https://gobyexample.com/channels for further info, we will use channels to communicate to and from goroutines
 func main() {
 	messages := make(chan string)
 

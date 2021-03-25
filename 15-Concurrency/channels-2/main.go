@@ -7,7 +7,6 @@ import (
 
 // See https://gobyexample.com/channels for further info, we will use channels to communicate from and to goroutines
 // another example where we use multiple channls and can use select statement to listen for update
-
 func main() {
 	c1 := make(chan string)
 	c2 := make(chan string)

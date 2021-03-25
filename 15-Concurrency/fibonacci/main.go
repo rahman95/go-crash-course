@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// See https://gobyexample.com/channel-synchronization for further info, fibonacci examples on main thread and using multiple threads
 func main() {
 	// 1 - standard fibonacci on main thread
 	// for i := 0; i < 100; i++ {

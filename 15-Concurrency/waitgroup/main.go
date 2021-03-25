@@ -7,7 +7,6 @@ import (
 )
 
 // See https://gobyexample.com/waitgroups for further info, we will use WaitGroup to wait for go routines to complete on all thread before terminating.
-
 func main() {
 	// we define a waitGroup and add go routines to them, this allows us to wait on the main thread until both go routines are complete
 	var wg sync.WaitGroup

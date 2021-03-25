@@ -6,7 +6,6 @@ import (
 )
 
 // See https://gobyexample.com/goroutines for further info, below are a few examples of using goroutines
-
 func main() {
 	// 1 - would never count sheep as the main thread will be stuck in the infinite loop counting birds.
 	// count("bird")
